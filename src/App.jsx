@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-// const API_KEY = ;
+const API_KEY = process.env.REACT_APP_TMDB_API_KEY;
 
 const App = () => {
   const [query, setQuery] = useState("");
@@ -14,7 +14,7 @@ const App = () => {
         `https://api.themoviedb.org/3/search/movie`,
         {
           params: {
-            api_key: "7be507bdd81d780b68cbff43956d94fa",
+            api_key: API_KEY,
             query: query,
           },
         }

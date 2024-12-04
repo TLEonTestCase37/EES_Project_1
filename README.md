@@ -1,3 +1,13 @@
-To run the application ,clone this repo and install the dependencies. Once you are done with that,you need to have your own TMDB API key,make a .env file in the src folder and paste REACT_APP_TMDB_API_KEY ="your api key"
-Now just run the application.
-P.S. for some reasons ,this and neither the deployed websites are return queries,but my on my phone,it works...
+Clone the repo: git clone https://github.com/TLEonTestCase37/EES_Project_1.git
+
+Install dependencies: cd movie-search-app
+npm install
+
+Get your TMDb API key: Go to TMDb API and get your API key.
+
+Setup .env file: In the src folder, create a .env file and add:
+REACT_APP_TMDB_API_KEY="your api key"
+
+Run the app: npm start
+Note
+For some reason, the app and deployed websites may not return queries on some platforms, but it works fine on mobile.(I can't figure out why)
